@@ -1,11 +1,11 @@
-package design.pattern.builder.observer;
+package design.pattern.observer;
 
-public class CricketNewsObserver1 implements Observer{
+public class CricketNewsObserver2 implements Observer{
 
 	String news;
-		
+	
 	public String getNews() {
-		System.out.println("News from CricketNewsObserver1:");
+		System.out.println("News from CricketNewsObserver2:");
 		return news;
 	}
 
@@ -17,5 +17,4 @@ public class CricketNewsObserver1 implements Observer{
 	public void update(String news) {
 		setNews(news);
 	}
-
 }

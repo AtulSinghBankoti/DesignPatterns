@@ -1,4 +1,4 @@
-package design.pattern.builder.observer;
+package design.pattern.observer;
 
 public class CricketNewsObserver3 implements Observer {
      String news;
